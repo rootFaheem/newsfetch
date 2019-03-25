@@ -1,0 +1,15 @@
+{
+  "name": "newsfetch",
+  "version": "1.0.0",
+  "description": "A node App to fetch news from Time.com",
+  "main": "server.js",
+  "scripts": {},
+  "author": "faheem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
