@@ -8,7 +8,7 @@
 
 3.  then run **nodemon server.js** or **node server.js**
 
-4.  go to _http://localhost://5000_ to se the result
+4.  go to _http://localhost://5000/getTimeNews_ to se the result
 
 ## Steps followed
 
