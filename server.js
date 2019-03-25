@@ -25,6 +25,7 @@ app.get("/getTimeNews", (req, res) => {
     .then(res => {
       data = res.data.articles;
 
+      // loop to extract one by one news and store in the allnews array
       for (i = 0; i < 7; i++) {
         let { title, url } = data[i];
         allnews[i] = {
@@ -36,6 +37,7 @@ app.get("/getTimeNews", (req, res) => {
       }
     })
     .then(art => {
+      // response to be show on http://localhost/getTimeNews
       res.json(allnews);
     })
     .catch(err => console.log(err));
